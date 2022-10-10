@@ -80,7 +80,7 @@ export const FormRegister = () => {
               name="password"
               placeholder="Password"
             ></Input>
-            <FormError name="error" component="p" />
+            <FormError name="password" component="p" />
           </Label>
           <BtnAdd type="submit">SIGN UP</BtnAdd>
         </FormContact>
